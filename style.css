@@ -11,18 +11,14 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
+/* ########### header section styling #################### */
+
 .flexible-container{
     display: flex;
 }
 
 .half-width{
     width: 50%;
-}
-
-.half-width img{
-    width: 80%;
-    padding-left: 10%;
-    padding-top: 10%;
 }
 
 .color-orange{
@@ -34,7 +30,7 @@ body{
     margin-top: 10%;
 }
 
-h1{
+#header-section h1{
     font-size: 60px;
     font-weight: 700;
     color: #575757;
@@ -60,3 +56,51 @@ h1{
     margin-top: 10px;
     box-shadow: 0px 2px rgba(252, 143, 73, 0.5);
 }
+
+
+#header-section img{
+    width: 80%;
+    padding-left: 10%;
+    padding-top: 10%;
+}
+
+#header-section{
+    margin-bottom: 100px;
+}
+
+/* ########### about section styling #################### */
+
+#about-section{
+    background-image: url(images/about-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#about-section img{
+    width: 40%;
+    /* margin-left: 30%; */
+    margin: 0 198px;
+    margin-top: 64px;
+    /* margin: 64px 198px; */
+}
+
+.right-div{
+    margin-top: 8%;
+}
+#about-section h2{
+    font-size: 40px;
+    font-weight: 700;
+    color:#707070;
+    margin-bottom: 32px;
+}
+
+#about-section p{
+    width: 62%;
+    line-height: 32px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #18191F;
+    margin-bottom: 70px;
+}
+
+
+
