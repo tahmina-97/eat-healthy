@@ -9,6 +9,7 @@
 }
 body{
     font-family: 'Montserrat', sans-serif;
+    background-color: #E5E5E5;
 }
 
 /* ########### header section styling #################### */
@@ -70,11 +71,7 @@ body{
 
 /* ########### about section styling #################### */
 
-#about-section{
-    background-image: url(images/about-bg.png);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-}
+
 #about-section img{
     width: 40%;
     /* margin-left: 30%; */
@@ -84,23 +81,123 @@ body{
 }
 
 .right-div{
-    margin-top: 8%;
+    margin-top: 6%;
 }
 #about-section h2{
     font-size: 40px;
     font-weight: 700;
     color:#707070;
-    margin-bottom: 32px;
+    margin-bottom: 30px;
 }
 
 #about-section p{
     width: 62%;
     line-height: 32px;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
     color: #18191F;
-    margin-bottom: 70px;
+    margin-bottom: 60px;
 }
+
+#about-section{
+    background-image: url(images/about-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-bottom: 72px;
+}
+
+/* ########### recipie section styling #################### */
+
+.recipie-heading{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px 30px;
+    margin-bottom: 30px;
+}
+
+.recipie-heading h2{
+    padding: 5px 20px;
+    margin-bottom: 30px;
+    font-size: 36px;
+    font-weight: 700;
+    color: #676767;
+}
+
+.recipie-heading p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #252525;
+}
+
+#recipie-section .image-container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.image-box{
+    width: 40%;
+    height: 600px;
+    border-radius: 30px;
+    background-color: #FFFFFF;
+    border: 30px solid #FFFFFF;
+    margin: 0 15px;
+    box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.15); 
+}
+
+.image-box img{
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 20px;
+}
+
+.image-box .image-content{
+    margin-top: 25px ;
+    color: #18191F;
+}
+
+.image-content h4{
+    font-size: 28px;
+    font-weight: 800;
+    margin-bottom:20px;
+}
+.image-content p{
+    font-size: 18px;
+    line-height: 30px;
+}
+
+/* ########### follower section styling #################### */
+
+#follower-section{
+    margin: 100px 130px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    padding: 65px 165px;
+    box-shadow: 0 0 6px 4px rgba(0, 0, 0, 0.1);
+}
+
+#follower-section .follower-container{
+    display: flex;
+    justify-content: space-between;
+    color: #18191F;
+}
+.media h1{
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+
+
+
+
+
+
+
 
 
 
